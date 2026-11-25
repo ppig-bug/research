@@ -13,7 +13,8 @@
 
 ## 第二步细读
 1. 只关注图表部分： 
-### fig1: 对比explicit policy ,implicit policy ,diffusion policy :(b)图里面的energy可以理解为一个能量场去表示动作分布，能量越低，动作概率越高；(c)图可以看出 diffusion policy 是以o观测作为条件，然后去学习一个score 噪声场，从噪声出发迭代采样出动作
+### fig1: 
+对比explicit policy ,implicit policy ,diffusion policy :(b)图里面的energy可以理解为一个能量场去表示动作分布，能量越低，动作概率越高；(c)图可以看出 diffusion policy 是以o观测作为条件，然后去学习一个score 噪声场，从噪声出发迭代采样出动作
 ```
 对比三种策略的表示方式：
 explicit policy : 
